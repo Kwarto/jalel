@@ -7,7 +7,7 @@ export const FooterWrapper = styled.div`
 
 export const FooterContentContainer = styled.div`
  background: var(--text-color-f);
- min-height: 60vh;
+ min-height: 55vh;
  padding: 10px;
 
  @media screen and (max-width: 1024px) {
@@ -18,7 +18,7 @@ export const FooterContentContainer = styled.div`
 export const FooterArticle = styled.div`
  padding-top: 15px;
  margin-left: 10px;
- margin-top: 30px;
+ margin-top: 50px;
 `
 
 export const ArticleWrap = styled.article`

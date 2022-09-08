@@ -7,11 +7,11 @@ export const HomeHeader = styled.div`
  background-position: center;
 
  @media screen and (max-width: 1024px){
-    min-height: 50vh;
+    min-height: 60vh;
  }
 
  @media screen and (max-width: 768px){
-    min-height: 70vh;
+    min-height: 80vh;
  }
 `
 
@@ -34,6 +34,6 @@ export const HomeHeaderText = styled.h2`
     font-size: 40px;
  }
  @media screen and (max-width: 768px){
-    font-size: 40px;
+    font-size: 25px;
  }
 `

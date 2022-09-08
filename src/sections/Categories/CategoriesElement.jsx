@@ -15,6 +15,16 @@ export const CategoriesWrapper = styled.div`
     font-size: 20px;
     font-weight: 700;
     color: var(--text-color-f);
+
+    @media screen and (max-width: 1024px){
+      width: 20%;
+      left: 5rem;
+    }
+
+    @media screen and (max-width: 768px){
+      width: 40%;
+      left: 5rem;
+    }
  }
 `
 
@@ -45,5 +55,18 @@ export const List = styled.div`
 
  img{
     width: 70%;
+
+
+    @media screen and (max-width: 1024px){
+      width: 50%;
+    }
+    @media screen and (max-width: 1024px){
+      width: 40%;
+      margin-top: 10px;
+    }
  }
+
+ @media screen and (max-width: 1024px){
+   padding: 10px;
+}
 `

@@ -48,13 +48,21 @@ img{
 .col-md-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* gap: 2rem; */
 }
 
 .cart-ico{
     color: var(--main-bg);
     font-size: 30px;
  }
+
+
+.slider{
+    padding: 100px 0;
+}
+
+.sliderWrap{
+  margin: 9rem 0;
+}
 
 @media screen and (max-width: 1024px) {
     .container{
@@ -73,7 +81,6 @@ img{
     }
     .col-md-2{
         grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
     }
 }
 
@@ -92,6 +99,5 @@ img{
     }
     .col-md-2{
         grid-template-columns: 1fr;
-        gap: 2rem;
     }
 }

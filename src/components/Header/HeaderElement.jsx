@@ -11,12 +11,22 @@ export const HeaderContentWrapper = styled.div`
  justify-content: space-between;
  align-items: center;
  margin: 0 30px;
+
+ @media screen and (max-width: 1024px){
+     display: flex;
+    align-items: center;
+    margin: 0 5px;
+ }
 `
 
 export const HeaderText = styled.h3`
  font-size: 20px;
  font-weight: 600;
  color: var(--text-color-f);
+
+ @media screen and (max-width: 1024px){
+    font-size: 15px;
+ }
 `
 
 export const FollowWrapper = styled.div`
@@ -29,6 +39,13 @@ export const FollowWrapper = styled.div`
     box-shadow: var(--box-shadow);
     color: var(--text-color-f);
     cursor: pointer;
+
+    @media screen and (max-width: 1024px){
+    font-size: 20px;
+    margin: 3px;
+    transform: translateY(2px);
+
+ }
 }
 
 `

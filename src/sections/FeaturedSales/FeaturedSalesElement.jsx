@@ -25,6 +25,9 @@ export const PriceCate = styled.div`
 
  h4{
     font-size: 16px;
+    @media screen and (max-width: 1024px){
+      font-size: 14px;
+    }
  }
 `
 export const LocDis = styled(PriceCate)`

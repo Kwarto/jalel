@@ -9,6 +9,10 @@ export const FooterContentContainer = styled.div`
  background: var(--text-color-f);
  min-height: 60vh;
  padding: 10px;
+
+ @media screen and (max-width: 1024px) {
+    min-height: 30vh;
+ }
 `
 
 export const FooterArticle = styled.div`
@@ -49,5 +53,5 @@ export const Flist = styled.div`
 
 export const FooterCopy = styled.div`
  background: var(--text-color-f);
- padding: 20px 0;
+ padding: 20px;
 `

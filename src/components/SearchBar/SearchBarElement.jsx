@@ -15,5 +15,13 @@ export const SearchContainer = styled.div`
     ::placeholder{
         font-size: 18px;
     }
+    @media screen and (max-width: 1024px){
+        padding: 15px 15px;
+     }
  }
+
+ @media screen and (max-width: 1024px){
+ width: 95%;
+ margin: 0 auto;
+}
 `

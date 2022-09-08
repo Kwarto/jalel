@@ -45,7 +45,37 @@ export const NavItemsWrapper = styled.ul`
         position: absolute;
         top: -9px;
         left: 40px;
+
+        @media screen and (max-width: 1024px){
+         position: static;
+         width: 28px;
+         margin-left: 15px;
+        }
     }
+ }
+
+ @media screen and (max-width: 1024px) {
+   display: none;
+   flex-flow: column;
+   padding: 30px 10px;
+   position: absolute;
+   left: 10%;
+   top: 8rem;
+   z-index: 100;
+   background: linear-gradient(to left bottom, var(--main-bg),var(--main-bg-f));
+   box-shadow: var(--box-shadow);
+   width: 80%;
+
+   .nav-list{
+      margin: 30px 0;
+      background: #fff;
+      padding: 20px 30px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      box-shadow: var(--box-shadow);
+      border-radius: .2rem;
+   }
  }
 `
 

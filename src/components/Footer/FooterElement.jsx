@@ -18,6 +18,7 @@ export const FooterContentContainer = styled.div`
 export const FooterArticle = styled.div`
  padding-top: 15px;
  margin-left: 10px;
+ margin-top: 30px;
 `
 
 export const ArticleWrap = styled.article`

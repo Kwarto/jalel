@@ -11,7 +11,7 @@ function Cart() {
          <Heading>Price</Heading>
          <Heading>Quantity</Heading>
          <Heading>SubTotal</Heading>
-         <Heading>Destroy</Heading>
+         <Heading>Update</Heading>
         </ColItemsHead>
         <ColItemsInCart>
         </ColItemsInCart>

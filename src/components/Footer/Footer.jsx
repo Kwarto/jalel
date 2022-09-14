@@ -18,9 +18,9 @@ function Footer() {
             <h2>Quick Links</h2>
             <Flist>
             <a href="/">Home</a>
-            <a href="/">Product</a>
-            <a href="/">Categories</a>
-            <a href="/">Get Account</a>
+            <a href="/shop">Product</a>
+            <a href="/categories">Categories</a>
+            <a href="/account/register">Get Account</a>
             </Flist>
           </ArticleWrap>
          </FooterArticle>

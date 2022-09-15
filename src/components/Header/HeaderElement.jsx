@@ -27,7 +27,17 @@ export const HeaderText = styled.h3`
  font-size: 20px;
  font-weight: 600;
  color: var(--text-color-f);
+ animation: ScaleOut 2s linear infinite;
 
+ @keyframes ScaleOut {
+   0%{
+      transform: scale(0);
+   }
+
+   100%{
+      transform: scale(1);
+   }
+ }
  @media screen and (max-width: 1024px){
     font-size: 15px;
  }

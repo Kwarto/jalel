@@ -12,6 +12,11 @@ export const MainNavBar = styled.nav`
  display: flex;
  justify-content: space-between;
  align-items: center;
+ margin-top: 3%;
+
+ @media screen and (max-width: 768px){
+   margin-top: 10%;
+ }
 `
 
 export const LogoWrapper = styled.div`

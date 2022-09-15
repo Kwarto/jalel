@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const OfferWrapper = styled.div`
- padding: 40px 0;
+ /* padding: 40px 0; */
 `
 
 export const OfferList = styled.div`

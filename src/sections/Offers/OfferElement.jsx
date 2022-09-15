@@ -13,7 +13,7 @@ flex-direction: column;
 align-items: center;
  box-shadow: var(--box-shadow);
     img{
-        width: 60%;
+        width: 40%;
         margin: 30px 0;
     }
 

@@ -87,7 +87,7 @@ img{
 @media screen and (max-width: 768px) {
     .container{
         margin: 0 auto;
-        width: var(--container-lg);
+        width: var(--container-sm);
     }  
     .col-md-4{
         grid-template-columns: 1fr;

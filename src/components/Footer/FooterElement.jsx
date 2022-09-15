@@ -36,7 +36,7 @@ export const ArticleWrap = styled.article`
  }
 `
 export const Ftext = styled.p`
- text-align: center;
+ text-align: start;
  padding-top: 5px;
 `
 export const Flist = styled.div`
@@ -55,4 +55,9 @@ export const Flist = styled.div`
 export const FooterCopy = styled.div`
  background: var(--text-color-f);
  padding: 20px;
+ p{
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+ }
 `

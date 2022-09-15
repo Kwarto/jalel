@@ -26,9 +26,9 @@ function RouterNavigation() {
             <Route path='checkout' element={<Checkout />} />
             <Route path='cart' element={<Cart />} />
             <Route path='order_received' element={<OrderReceived />} />
-            <Route path='error-page' element={<ErrorPage />} />
+            <Route path='error_page' element={<ErrorPage />} />
             <Route path='account' element={<Account />} />
-            <Route path='account/my-account' element={<MyAccount />} />
+            <Route path='account/my_account' element={<MyAccount />} />
             <Route path='account/login' element={<Login />} />
             <Route path='account/register' element={<Register />} />
          </Routes>

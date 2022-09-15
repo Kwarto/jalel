@@ -21,6 +21,7 @@ export const RegisterFormContainer = styled.div`
 
         input, button{
             border: 1px solid var(--main-bg);
+            box-shadow: 0 1rem .3rem rgba(141, 25, 25, 0.027);
             margin-top: 30px 10px;
             padding: 14px 50px;
             border-radius: 50px;

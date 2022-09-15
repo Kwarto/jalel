@@ -47,6 +47,12 @@ export const ShopSky = styled.div`
  margin-top: 5rem;
  padding: 100px 0;
  background: var(--main-bg);
+
+ h1{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px;
+}
 `
 
 export const ShopHeading = styled.div`
@@ -80,7 +86,6 @@ export const BungCate = styled.div`
 
 export const SkyList = styled.div`
  background: #fff;
- /* margin: 0 15px; */
 `
 
 export const ShopBed = styled.div`

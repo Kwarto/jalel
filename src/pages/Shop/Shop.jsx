@@ -145,6 +145,7 @@ function Shop() {
      </ShopWrapper>
      <PopularSales />
      <ShopSky>
+       <h1>New Listening</h1>
         <SkyList>
         <ProductCard  className='col-md-4'>
           <CardItems>

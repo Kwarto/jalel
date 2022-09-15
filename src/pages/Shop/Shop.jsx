@@ -94,10 +94,10 @@ function Shop() {
             <Selectors>
                <h1>Bungalow</h1>
                <BungCate>
-                 Un-going  Bungalow
+                 Ongoing  Bungalow
                </BungCate>
                <BungCate>
-                  Finished Bungalows
+                  Completed Bungalows
                </BungCate>
                <BungCate>
                  Out For Sale  Bungalow
@@ -106,10 +106,10 @@ function Shop() {
             <Selectors>
                <h1>Skyscrapers</h1>
                <BungCate>
-                 Un-going  Bungalow
+                 Ongoing  Bungalow
                </BungCate>
                <BungCate>
-                  Finished Bungalows
+                  Completed Bungalows
                </BungCate>
                <BungCate>
                  Out For Sale  Bungalow
@@ -118,10 +118,10 @@ function Shop() {
             <Selectors>
                <h1>2 Bed Room</h1>
                <BungCate>
-                 Un-going  Bungalow
+                 Ongoing  Bungalow
                </BungCate>
                <BungCate>
-                  Finished Bungalows
+                  Completed Bungalows
                </BungCate>
                <BungCate>
                  Out For Sale  Bungalow
@@ -130,10 +130,10 @@ function Shop() {
             <Selectors>
                <h1>Full Apartment</h1>
                <BungCate>
-                 Un-going  Bungalow
+                 Ongoing  Bungalow
                </BungCate>
                <BungCate>
-                  Finished Bungalows
+                  Completed Bungalows
                </BungCate>
                <BungCate>
                  Out For Sale  Bungalow

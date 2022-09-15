@@ -13,6 +13,22 @@ export const MainNavBar = styled.nav`
  justify-content: space-between;
  align-items: center;
  margin-top: 3%;
+ 
+ button{
+   display: none;
+   background: transparent;
+   cursor: pointer;
+   .burger-ico{
+      font-size: 25px;
+      color: black;
+   }
+ }
+
+ @media screen and (max-width: 1024px){ button{
+      display: flex;
+   }
+}
+
 
  @media screen and (max-width: 768px){
    margin-top: 10%;
@@ -23,6 +39,10 @@ export const LogoWrapper = styled.div`
  margin-left: 20px;
  img{
     width: 80px;
+ }
+
+ @media screen and (max-width: 1024px){
+   margin-left: 10px;
  }
 `
 
@@ -64,12 +84,12 @@ export const NavItemsWrapper = styled.ul`
    flex-flow: column;
    padding: 30px 10px;
    position: absolute;
-   left: 10%;
+   left: 0;
    top: 8rem;
    z-index: 100;
    background: linear-gradient(to left bottom, var(--main-bg),var(--main-bg-f));
    box-shadow: var(--box-shadow);
-   width: 80%;
+   width: 100%;
 
    .nav-list{
       margin: 30px 0;
@@ -94,5 +114,15 @@ export const TopButton = styled.div`
     color: var(--text-color-f);
     font-size: 18px;
     font-weight: 600;
+ }
+
+ @media screen and (max-width: 768px) {
+   margin-right: 2px;
+   padding: 8px 20px;
+   display: flex;
+   align-items: center;
+   .nav-list{
+      font-size: 12px;
+   }
  }
 `

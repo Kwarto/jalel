@@ -41,6 +41,12 @@ export const FilterSelector = styled.div`
  background: #fff;
  min-height: 70vh;
  box-shadow: var(--box-shadow);
+
+ @media screen and (max-width: 1024px) {
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+ }
 `
 
 export const ShopSky = styled.div`
@@ -62,6 +68,10 @@ export const ShopHeading = styled.div`
  margin-top: 7%;
  text-align: center;
  text-decoration: underline;
+
+ @media screen and (max-width: 1024px) {
+   display: none;
+ }
 `
 
 export const Selectors = styled.div`

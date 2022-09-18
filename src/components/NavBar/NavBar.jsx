@@ -17,7 +17,7 @@ function NavBar() {
          <img src={Logo} alt="Jalel Logo" />
       </LogoWrapper>
       <button className='burger' onClick={() => setIsMobile(!isMobile)}>
-            {isMobile ? <FaTimes className='burger-ico'/> : <FaBars className='burger-ico'/>}
+            {isMobile ?<FaBars className='burger-ico'/> : <FaTimes className='burger-ico'/>  }
       </button>
       <NavItemsWrapper onClick={() => setIsMobile(true)} 
           className={ isMobile ? "nav-links-mobile" : "nav-links"}>

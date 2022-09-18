@@ -19,7 +19,6 @@ function Checkout() {
             <input type="text" name='lastName' placeholder='Last Name'/>
           </div>
           <input type="text" name='businessName' placeholder='Business Name (Optional)'/>
-          <input type="text" name='country' placeholder='Enter Country'/>
           <input type="text" name='city' placeholder='Enter City / Town'/>
           <input type="text" name='streetAddress' placeholder='Enter Street Address'/>
           <input type="text" name='zip' placeholder='Enter Zip Code'/>

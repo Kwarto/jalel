@@ -23,16 +23,7 @@ export const FooterArticle = styled.div`
 
 export const ArticleWrap = styled.article`
  h2{
-    position: relative;
-    &:after{
-        content: '';
-        position: absolute;
-        bottom: -6px;
-        left: 12px;
-        width: 25%;
-        height: 3px;
-        background: var(--main-bg-f);
-    }
+   /* text-align: center; */
  }
 `
 export const Ftext = styled.p`

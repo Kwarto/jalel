@@ -1,5 +1,5 @@
 import React from 'react'
-import {OfferWrapper, OfferList, OfferCat, OfferCaption, OfferBtn} from './OfferElement'
+import {OfferWrapper, OfferList, OfferCat, OfferCaption, OfferBtn} from './OffersElement'
 import OfferImg1 from '../../images/Vector.png'
 import OfferImg2 from '../../images/Vector2.png'
 import OfferImg3 from '../../images/Vector3.png'
@@ -39,7 +39,7 @@ function Offers() {
                 <img src={OfferImgSrc} alt="" />
                 <OfferCat>{OfCat}</OfferCat>
                  <OfferCaption>{OfCap}</OfferCaption>
-                 <OfferBtn>{OfBtn}</OfferBtn>
+                 <OfferBtn href="/error_page">{OfBtn}</OfferBtn>
               </OfferList>
             </>
           )

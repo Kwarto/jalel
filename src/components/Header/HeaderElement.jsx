@@ -7,6 +7,10 @@ export const HeaderWrapper = styled.div`
  top: 0;
  left: 0;
  right: 0;
+
+ @media screen and (max-width: 1024px){
+   display: flex;
+ }
 `
 
 export const HeaderContentWrapper = styled.div`

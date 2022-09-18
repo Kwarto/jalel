@@ -26,12 +26,83 @@ export const MainNavBar = styled.nav`
 
  @media screen and (max-width: 1024px){ button{
       display: flex;
-   }
 }
 
+.nav-links-mobile{
+ display: none;
+ justify-content: space-between;
+ align-items: center;
+}
 
+.nav-links{
+ display: flex;
+ flex-flow: column;
+ padding: 30px 10px;
+ position: absolute;
+ left: 0;
+ top: 4.5rem;
+ z-index: 100;
+ background: linear-gradient(to left bottom, var(--main-bg),var(--main-bg-f));
+ box-shadow: var(--box-shadow);
+ width: 100%;
+
+ .nav-list{
+  margin: 30px 0;
+  background: #fff;
+  padding: 20px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: var(--box-shadow);
+  border-radius: .2rem;
+  animation: SlidInNavItem 300ms forwards ease;
+  transform-origin: left;
+
+  .nav-list:nth-child(1) {
+        animation-delay: 200ms;
+    }
+
+    .nav-list:nth-child(1) {
+        animation-delay: 400ms;
+    }
+    .nav-list:nth-child(2) {
+        animation-delay: 600ms;
+    }
+
+    .nav-list:nth-child(4) {
+        animation-delay: 800ms;
+    }
+
+
+    @keyframes SlidInNavItem {
+        0%{
+          transform: rotateY(90deg);
+        }
+        100%{
+          transform: rotateY(0deg);
+          opacity: 1;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+  width: 60%;
+}
+}
+
+}
+
+@media screen and (max-width: 1024px){
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-top: 0;
+ }
  @media screen and (max-width: 768px){
-   margin-top: 10%;
+   margin-top: 0;
+   
  }
 `
 
@@ -46,11 +117,8 @@ export const LogoWrapper = styled.div`
  }
 `
 
-export const NavItemsWrapper = styled.ul`
- display: flex;
- justify-content: space-between;
- align-items: center;
- .nav-list{
+export const NavItemsWrapper = styled.div`
+  .nav-list{
     color: var(--text-color);
     padding: 0 30px;
     font-size: 18px;
@@ -60,7 +128,8 @@ export const NavItemsWrapper = styled.ul`
     span{
         background: red;
         font-size: 12px;    
-        width: 15px;
+        width: 20px;
+        height: 20px;
         aspect-ratio: 1/1;
         border-radius: 50px;
         display: flex;
@@ -68,39 +137,16 @@ export const NavItemsWrapper = styled.ul`
         justify-content: center;
         color: #fff;
         position: absolute;
-        top: -9px;
-        left: 40px;
+        top: -19px;
+        left: 38px;
 
         @media screen and (max-width: 1024px){
          position: static;
-         width: 28px;
-         margin-left: 15px;
+         width: 22px;
+         height: 22px;
+         margin-left: 5px;
         }
     }
- }
-
- @media screen and (max-width: 1024px) {
-   display: none;
-   flex-flow: column;
-   padding: 30px 10px;
-   position: absolute;
-   left: 0;
-   top: 8rem;
-   z-index: 100;
-   background: linear-gradient(to left bottom, var(--main-bg),var(--main-bg-f));
-   box-shadow: var(--box-shadow);
-   width: 100%;
-
-   .nav-list{
-      margin: 30px 0;
-      background: #fff;
-      padding: 20px 30px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      box-shadow: var(--box-shadow);
-      border-radius: .2rem;
-   }
  }
 `
 

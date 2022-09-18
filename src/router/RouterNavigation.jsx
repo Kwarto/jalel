@@ -7,11 +7,11 @@ import Categories from '../pages/Categories/Categories'
 import Checkout from '../pages/Checkout/Checkout'
 import Cart from '../pages/Cart/Cart'
 import OrderReceived from '../pages/OrderReceived/OrderReceived'
-import Account from '../pages/Account/Account'
 import MyAccount from '../accoutlist/MyAccount/MyAccount'
 import Login from '../accoutlist/Login/Login'
 import Register from '../accoutlist/Register/Register'
 import ErrorPage from '../pages/Error/ErrorPage'
+import NewsLetter from '../sections/NewsLetter/NewsLetter'
 import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/Footer/Footer'
 function RouterNavigation() {
@@ -27,7 +27,7 @@ function RouterNavigation() {
             <Route path='cart' element={<Cart />} />
             <Route path='order_received' element={<OrderReceived />} />
             <Route path='error_page' element={<ErrorPage />} />
-            <Route path='account' element={<Account />} />
+            <Route path='newsletter' element={<NewsLetter />} />
             <Route path='account/my_account' element={<MyAccount />} />
             <Route path='account/login' element={<Login />} />
             <Route path='account/register' element={<Register />} />

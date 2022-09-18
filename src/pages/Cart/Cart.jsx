@@ -17,7 +17,10 @@ function Cart() {
         </ColItemsInCart>
       </CartItemColWrapper>
       <CartItemSubTotalWrapper>
-      
+         <div>
+          <h1>SUBTOTAL</h1>
+          <a href="/checkout">Checkout</a>
+         </div>
       </CartItemSubTotalWrapper>
      </CartContentWrapper>
     </CartWrapper>

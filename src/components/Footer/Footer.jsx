@@ -20,7 +20,7 @@ function Footer() {
             <a href="/">Home</a>
             <a href="/shop">Product</a>
             <a href="/categories">Categories</a>
-            <a href="/account/register">Get Account</a>
+            <a href="/account/my_account">My Account</a>
             </Flist>
           </ArticleWrap>
          </FooterArticle>
@@ -28,8 +28,8 @@ function Footer() {
           <ArticleWrap>
             <h2>Support</h2>
             <Flist>
-            <a href="/">FAQs</a>
-            <a href="/">NewsLetter</a>
+            <a href="/order_received">FAQs</a>
+            <a href="/newsletter">NewsLetter</a>
             <a href="/">Terms & Conditions</a>
             <a href="/">Privacy Policy</a>
             </Flist>

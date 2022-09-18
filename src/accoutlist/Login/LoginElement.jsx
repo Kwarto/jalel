@@ -18,7 +18,10 @@ export const LoginSideImg = styled.div`
 export const LoginFormWrapper = styled.div`
  text-align: center;
  margin-top: 32px;
-
+ @media screen and (max-width: 768px) {
+   position: absolute;
+   top: 11rem;
+ }
  form{
     display: flex;
     flex-direction: column;
@@ -62,10 +65,14 @@ export const LoginFormWrapper = styled.div`
         margin-top: 20px;
         display: flex;
         gap: 10px;
-
         a{
             color: var(--main-bg);
             text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px){
+          color: var(--text-color-f);
+          font-weight: 600;
         }
     }
  }
